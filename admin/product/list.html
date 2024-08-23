@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Administrator::Prod_List</title>
+    <link rel="stylesheet" href="../css/prod_List.css">
+    <link rel="stylesheet" href="../css/admin_header.css">
+    <link rel="stylesheet" href="../css/admin_footer.css">
+  </head>
+  <body>
+    <div class="header_wrapper">
+      <header>
+        <a href="#" id="logo">
+          <img src="../images/admin_logo.jpg" alt="admin_logo"/>
+        </a>
+        <div class="home">
+          <a href="#">HOME | </a>
+          <a href="#">로그아웃 | </a>
+          <a href="#">고객센터</a>
+        </div>
+      </header>
+    </div>
+    <div class="main_wrapper">
+      <main>
+        <div id="section1">
+          <div id="section1_head">
+            <a>주요기능</a>
+          </div>
+          <div id="section1_menu">
+            <ul id="prod_manage">
+              상품관리
+              <div>
+                <li id="prod_list">L 
+                  <a href="#">상품목록</a>
+                </li>
+                <li id="prod_register">L 
+                  <a href="#">상품등록</a>
+                </li>
+              </div>
+            </ul>
+            <ul id="order_manage">
+              주문관리
+              <li id="order_list">L 
+                <a href="#">주문목록</a>
+              </li>
+            </ul>
+            <ul id="user_manage">
+              회원관리
+              <li id="user_list">L 
+                <a href="#">회원목록</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div id="section2_main">
+          <div id="section2_title">상품목록</div>
+          <div id="article_wrapper">
+            <div id="article1">
+              <table id="prod_table">
+                <tr>
+                  <th><input type="checkbox"></th>
+                  <th>사진</th>
+                  <th>상품번호</th>
+                  <th>상품명</th>
+                  <th>구분</th>
+                  <th>가격</th>
+                  <th>재고</th>
+                  <th>등록일</th>
+                </tr>
+                <tr>
+                  <td><input type="checkbox"></td>
+                  <td><img id="sample_img" src="../images/sample_item1.jpg" alt="sample"></td>
+                  <td>1011</td>
+                  <td>사과 500g</td>
+                  <td>과일</td>
+                  <td>4,000원</td>
+                  <td>100</td>
+                  <td>2023-01-01</td>
+                </tr>
+              </table>
+            </div>
+            <div id="prod_heading">
+              <a href="#" id="prod_del">선택삭제</a>
+              <a href="#" id="prod_reg">상품등록</a>
+            </div>
+            <div id="list_num">
+              <a><</a>
+              <a href="#">[1]</a>
+              <a href="#">[2]</a>
+              <a href="#">[3]</a>
+              <a href="#">[4]</a>
+              <a href="#">[5]</a>
+              <a>></a>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <div class="footer_wrapper">
+      <footer>
+        <div id="version">FARMSTORY ADMINISTRATOR Version 1.0.1</div>
+        <div id="copyright">
+          Copyrightⓒ 김철학(개발에반하다.) All rights reserved.
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
