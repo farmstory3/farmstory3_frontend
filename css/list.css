@@ -407,7 +407,7 @@
     align-items: flex-start;
     flex-shrink: 0;
     background-size: cover;
-    background-image: url("/images/market_item1.jpg");
+    background-image: url("../images/market_item1.jpg");
   }
   .frame20-text028 {
     top: 45px;
@@ -571,7 +571,7 @@
     align-items: flex-start;
     flex-shrink: 0;
     background-size: cover;
-    background-image: url("/images/market_item2.jpg");
+    background-image: url("../images/market_item2.jpg");
   }
   .frame20-text041 {
     top: 45px;
@@ -734,7 +734,7 @@
     align-items: flex-start;
     flex-shrink: 0;
     background-size: cover;
-    background-image: url("/images/market_item3.jpg");
+    background-image: url("../images/market_item3.jpg");
   }
   .frame20-text054 {
     top: 45px;
@@ -898,7 +898,7 @@
     align-items: flex-start;
     flex-shrink: 0;
     background-size: cover;
-    background-image: url("/images/market_item6.jpg");
+    background-image: url("../images/market_item6.jpg");
   }
   .frame20-text067 {
     top: 45px;
@@ -1062,7 +1062,7 @@
     align-items: flex-start;
     flex-shrink: 0;
     background-size: cover;
-    background-image: url("/images/market_item7.jpg");
+    background-image: url("../images/market_item7.jpg");
   }
   .frame20-text080 {
     top: 45px;

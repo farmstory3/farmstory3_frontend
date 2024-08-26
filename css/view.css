@@ -121,12 +121,13 @@
     background-position: 50% 50%;
     background-size: 100% 100%;
     margin-top: 5px;
+    overflow: hidden;
 }
 
 .frame18-article {
     top: 0px;
     width: 802px;
-    height: 2095px;
+    height: 100%;
     align-items: flex-start;
     flex-shrink: 0;
   }
@@ -173,7 +174,7 @@
     align-items: flex-start;
     flex-shrink: 0;
     background-size: cover;
-    background-image: url("/images/market_detail_sample.jpg");
+    background-image: url("../images/market_detail_sample.jpg");
   }
   .frame18-text12 {
     top: 1856px;
@@ -464,7 +465,7 @@
     align-items: flex-start;
     flex-shrink: 0;
     background-size: cover;
-    background-image: url("/images/market_item_thumb.jpg");
+    background-image: url("../images/market_item_thumb.jpg");
   }
   .frame18-table {
     top: 0px;
@@ -824,6 +825,7 @@
 
 .main-box {
     position: relative;
+    overflow: hidden;
   }
 
   .frame20-article {
