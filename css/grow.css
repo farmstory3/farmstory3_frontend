@@ -34,30 +34,39 @@
     height: 233px;
 }
 
-.sidebar-item-1, .sidebar-item-2 , .sidebar-item-3{
+.sidebar-item {
     width: 175px;
     height: 29px;
-}
-
-.sidebar-item-1{
-    margin-top: 30px;
-    background-image: url(../images/sub_cate3_lnb1.png);
+    margin-top: 6px;
     background-position: 50% 50%;
     background-size: 100% 100%;
+    cursor: pointer;
 }
 
-.sidebar-item-2{
-    margin-top: 8px;
-    background-image: url(../images/sub_cate3_lnb2_ov.png);
-    background-position: 50% 50%;
-    background-size: 100% 100%;
+.sidebar-item._01{
+     background-image: url(../images/sub_cate3_lnb1.png);
+     margin-top: 26px;
 }
 
-.sidebar-item-3{
-    margin-top: 8px;
+.sidebar-item._02{
+    background-image: url(../images/sub_cate3_lnb2.png);
+}
+
+.sidebar-item._03{
     background-image: url(../images/sub_cate3_lnb3.png);
-    background-position: 50% 50%;
-    background-size: 100% 100%;
+}
+
+.sidebar-item._01._ov{
+    background-image: url(../images/sub_cate3_lnb1_ov.png);
+    margin-top: 26px;
+}
+
+.sidebar-item._02._ov{
+   background-image: url(../images/sub_cate3_lnb2_ov.png);
+}
+
+.sidebar-item._03._ov{
+   background-image: url(../images/sub_cate3_lnb3_ov.png);
 }
 
 .sidebar-gubun-box{

@@ -14,13 +14,13 @@
             <div class="header-logo">
                 <div class="logo-link-box">
                     <div class="logo-link">
-                        <div>Home</div>
+                        <div><a href="./index.html">Home</a></div>
                         <div>|</div>
-                        <div>로그인</div>
+                        <div><a href="../user/login.html">로그인</a></div>
                         <div>|</div>
-                        <div>회원가입</div>
+                        <div><a href="../user/register.html">회원가입</a></div>
                         <div>|</div>
-                        <div>고객센터</div>
+                        <div><a href="../community/qna.html">고객센터</a></div>
                     </div>
                 </div>
                 <div class="logo-add-box">
@@ -38,23 +38,33 @@
         <div class="header-menu-box">
             <div>
                 <div class="menu-gubun"></div>
-                <div class="menu-1 menu"></div>
+                <a href="../introduction/introduction.html">
+                    <div class="menu-1 menu"></div>
+                </a>
             </div>
             <div>
                 <div class="menu-gubun"></div>
-                <div class="menu-2 menu"></div>
+                <a href="../market/list.html">
+                    <div class="menu-2 menu"></div>
+                </a>
             </div>
             <div>
                 <div class="menu-gubun"></div>
-                <div class="menu-3 menu"></div>
+                <a href="../croptalk/story.html">
+                    <div class="menu-3 menu"></div>
+                </a>
             </div>
             <div>
                 <div class="menu-gubun"></div>
-                <div class="menu-4 menu"></div>
+                <a href="../event/info.html">
+                    <div class="menu-4 menu"></div>
+                </a>
             </div>
             <div>
                 <div class="menu-gubun"></div>
-                <div class="menu-5 menu"></div>
+                <a href="../community/notice.html">
+                    <div class="menu-5 menu"></div>
+                </a>
             </div>
         </div>
         <div class="header-bottom-img">
@@ -67,9 +77,15 @@
                 <div class="sidebar-logo"></div>
             </div>
             <div class="sidebar-bg-box">
-                <div class="sidebar-item-1"></div>
-                <div class="sidebar-item-2"></div>
-                <div class="sidebar-item-3"></div>
+                <a href="/croptalk/story.html">
+                    <div class="sidebar-item _01"></div>
+                </a>
+                <a href="/croptalk/grow.html">
+                    <div class="sidebar-item _02"></div>
+                </a>
+                <a href="/croptalk/school.html">
+                    <div class="sidebar-item _03 _ov"></div>
+                </a>
             </div>
         </div>
         <div class="sidebar-gubun-box"></div>
@@ -113,5 +129,17 @@
             </div>
         </div>
     </div>
+    <script>
+        document.querySelectorAll(".sidebar-item").forEach(function (item) {
+            item.addEventListener("click", function () {
+                document
+                    .querySelectorAll(".sidebar-item")
+                    .forEach(function (i) {
+                        i.classList.remove("_ov");
+                    });
+                this.classList.add("_ov");
+            });
+        });
+    </script>
 </body>
 </html>
