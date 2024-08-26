@@ -121,6 +121,8 @@
   background-position: 50% 50%;
   background-size: 100% 100%;
   margin-top: 5px;
+  position: relative;
+  overflow: hidden;
 }
 
 
@@ -448,7 +450,7 @@
   align-items: flex-start;
   flex-shrink: 0;
   background-size: cover;
-  background-image: url("/images/market_item1.jpg");
+  background-image: url("../images/market_item1.jpg");
 }
 .frame17-text026 {
   top: 35px;
@@ -600,7 +602,7 @@
   align-items: flex-start;
   flex-shrink: 0;
   background-size: cover;
-  background-image: url("/images/market_item1.jpg");
+  background-image: url("../images/market_item1.jpg");
 }
 .frame17-text039 {
   top: 35px;
@@ -752,7 +754,7 @@
   align-items: flex-start;
   flex-shrink: 0;
   background-size: cover;
-  background-image: url("/images/market_item1.jpg");
+  background-image: url("../images/market_item1.jpg");
 }
 .frame17-text052 {
   top: 35px;

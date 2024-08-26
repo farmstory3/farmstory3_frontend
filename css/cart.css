@@ -516,7 +516,7 @@
   align-items: flex-start;
   flex-shrink: 0;
   background-size: cover;
-  background-image: url("/images/market_item1.jpg");
+  background-image: url("../images/market_item1.jpg");
 }
 .frame19-text028 {
   top: 35px;
@@ -679,7 +679,7 @@
   align-items: flex-start;
   flex-shrink: 0;
   background-size: cover;
-  background-image: url("/images/market_item1.jpg");
+  background-image: url("../images/market_item1.jpg");
 }
 .frame19-text041 {
   top: 35px;
@@ -842,7 +842,7 @@
   align-items: flex-start;
   flex-shrink: 0;
   background-size: cover;
-  background-image: url("/images/market_item1.jpg");
+  background-image: url("../images/market_item1.jpg");
 }
 .frame19-text054 {
   top: 35px;
