@@ -34,27 +34,31 @@
     height: 233px;
 }
 
-.sidebar-item-1{
+.sidebar-item {
     width: 175px;
     height: 29px;
-}
-
-.sidebar-item-2{
-    width: 175px;
-    height: 29px;
-}
-
-.sidebar-item-1{
-    margin-top: 30px;
-    background-image: url(../images/sub_cate1_lnb1_ov.png);
+    margin-top: 6px;
     background-position: 50% 50%;
     background-size: 100% 100%;
+    cursor: pointer;
 }
-.sidebar-item-2{
-    margin-top: 4px;
+
+.sidebar-item._01{
+     background-image: url(../images/sub_cate1_lnb1.png);
+     margin-top: 26px;
+}
+
+.sidebar-item._02{
     background-image: url(../images/sub_cate1_lnb2.png);
-    background-position: 50% 50%;
-    background-size: 100% 100%;
+}
+
+.sidebar-item._01._ov{
+     background-image: url(../images/sub_cate1_lnb1_ov.png);
+     margin-top: 26px;
+}
+
+.sidebar-item._02._ov{
+    background-image: url(../images/sub_cate1_lnb2_ov.png);
 }
 
 
