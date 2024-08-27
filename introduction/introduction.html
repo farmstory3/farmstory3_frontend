@@ -3,23 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>introduction</title>
+    <title>인사말</title>
 </head>
 <link rel="stylesheet" href="../css/header.css">
 <link rel="stylesheet" href="../css/introduction.css">
 <link rel="stylesheet" href="../css/footer.css">
+<body>
 <div class="header-wrapper">
     <div class="header-logo-box">
         <div class="header-logo">
             <div class="logo-link-box">
                 <div class="logo-link">
-                    <div>Home</div>
+                    <div><a href="/index.html">Home</a></div>
                     <div>|</div>
-                    <div>로그인</div>
+                    <div><a href="../user/login.html">로그인</a></div>
                     <div>|</div>
-                    <div>회원가입</div>
+                    <div><a href="../user/register.html">회원가입</a></div>
                     <div>|</div>
-                    <div>고객센터</div>
+                    <div><a href="../community/qna.html">고객센터</a></div>
                 </div>
             </div>
             <div class="logo-add-box">
@@ -37,23 +38,33 @@
     <div class="header-menu-box">
         <div>
             <div class="menu-gubun"></div>
-            <div class="menu-1 menu"></div>
+            <a href="../introduction/introduction.html">
+                <div class="menu-1 menu"></div>
+            </a>
         </div>
         <div>
             <div class="menu-gubun"></div>
-            <div class="menu-2 menu"></div>
+            <a href="../market/list.html">
+                <div class="menu-2 menu"><img src="../images/head_menu_badge.png" alt="badge"></div>
+            </a>
         </div>
         <div>
             <div class="menu-gubun"></div>
-            <div class="menu-3 menu"></div>
+            <a href="../croptalk/story.html">
+                <div class="menu-3 menu"></div>
+            </a>
         </div>
         <div>
             <div class="menu-gubun"></div>
-            <div class="menu-4 menu"></div>
+            <a href="../event/info.html">
+                <div class="menu-4 menu"></div>
+            </a>
         </div>
         <div>
             <div class="menu-gubun"></div>
-            <div class="menu-5 menu"></div>
+            <a href="../community/notice.html">
+                <div class="menu-5 menu"></div>
+            </a>
         </div>
     </div>
     <div class="header-bottom-img">
@@ -66,11 +77,11 @@
             <div class="sidebar-logo"></div>
         </div>
         <div class="sidebar-bg-box">
-            <a>
-            <div class="sidebar-item-1"></div>
+            <a href="../introduction/introduction.html">
+                <div class="sidebar-item _01 _ov"></div>
             </a>
-            <a>
-            <div class="sidebar-item-2"></div>
+            <a href="../introduction/direction.html">
+                <div class="sidebar-item _02"></div>
             </a>
         </div>
         
@@ -92,7 +103,7 @@
                 <div class="nav-latest-icon">></div>
                 <div class="nav-tit-2">팜스토리소개</div>
                 <div class="nav-latest-icon">></div>
-                <div class="nav-tit-3">인삿말</div>
+                <div class="nav-tit-3">인사말</div>
             </div>
         </div>
         <div class="main-gubun-box">
@@ -136,4 +147,17 @@
         </div>
     </div>
 </div>
+</body>
+<script>
+    document.querySelectorAll(".sidebar-item").forEach(function (item) {
+        item.addEventListener("click", function () {
+            document
+                .querySelectorAll(".sidebar-item")
+                .forEach(function (i) {
+                    i.classList.remove("_ov");
+                });
+            this.classList.add("_ov");
+        });
+    });
+</script>
 </html>

@@ -79,6 +79,17 @@
     background-image: url(../images/head_menu2.png);
 }
 
+.menu-2 {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.menu-2 img {
+    margin-left: 58px;
+    margin-top: -16px;
+}
+
 .menu-3{
     background-image: url(../images/head_menu3.png);
 }
